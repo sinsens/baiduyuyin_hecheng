@@ -17,7 +17,6 @@ def say(text):
     
     """ 先将音频文件下载到本地后再播放 """
     filename = str(time.time())+'.mp3'
-    print filename
     urllib.urlretrieve(url,filename)
     mp3 = mp3play.load(filename)
     mp3.play()
@@ -34,4 +33,4 @@ def say(text):
         except:
             print 'Error'
     
-say('你好，我是小娜，你喜欢我吗')
+#say('你好，我是小娜，你喜欢我吗')
