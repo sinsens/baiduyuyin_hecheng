@@ -22,7 +22,7 @@ def say(text):
     mp3.play()
         
     """ 播放结束前要对主线程休眠，否则会直接退出执行脚本 """
-    st=(mp3.seconds()+0.05)
+    st=(mp3.seconds()+0.25)
     time.sleep(st)
     
     mp3.pause()
