@@ -29,4 +29,4 @@ def chat(text='hello'):
     except:
         print 'error'
     
-chat('今天丽江天气怎么样')
+chat('今天北京天气怎么样')
